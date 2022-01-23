@@ -27,6 +27,7 @@ package arraypractice;
 
 public class ArrayDemo {
 	
+	
 	OrderItem[] order = new OrderItem [numberOfItems];
 	
 	/**
