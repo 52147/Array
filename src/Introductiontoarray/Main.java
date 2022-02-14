@@ -45,16 +45,18 @@ public class Main {
 		System.out.println("The first element is: " + a1[0]);
 		
 		// 4. Iterate all elements
-		System.out.println("[Version 1] The contents of a1 are:");
+		System.out.print("[Version 1] The contents of a1 are:");
 		
 		for(int i = 0; i < a1.length; ++i) {
-			System.out.println(" " + a1[i]);
+			System.out.print(" " + a1[i]);
 		}
 		
-		System.out.println("[Version 2] The contents of a1 are:");
+		System.out.println();
+		
+		System.out.print("[Version 2] The contents of a1 are:");
 		
 		for(int item: a1) {
-			System.out.println(" " + item);
+			System.out.print(" " + item);
 		}
 		
 		System.out.println();
@@ -66,8 +68,12 @@ public class Main {
 		Arrays.sort(a1);
 		
 		for(int item: a1) {
-			System.out.println(" " + item);
+			System.out.print(" " + item);
 		}
+		
+		System.out.println(a1);  // we print the array a1 directly will receive the hashcode, not all elements in the array a1
+		// print the array list directly, we can get all elements in the array list
+		
 		
 		
 

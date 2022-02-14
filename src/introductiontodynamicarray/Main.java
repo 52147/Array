@@ -49,14 +49,14 @@ public class Main {
 		System.out.println("[Version 1] The contents of v1 are:");
 		
 		for(int i = 0; i < v1.size(); ++i) {
-			System.out.println(" " + v1.get(i));
+			System.out.print(" " + v1.get(i));
 		}
 		
 		System.out.println();
 		System.out.println("[Version 2] The contents of v1 are:");
 		
 		for(int item: v1) {
-			System.out.println(" " + item);
+			System.out.print(" " + item);
 		}
 		
 		System.out.println();
