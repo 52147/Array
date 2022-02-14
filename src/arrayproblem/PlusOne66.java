@@ -105,6 +105,8 @@ public class PlusOne66 {
 		
 		int n = digits.length;
 		
+		
+		// Use this for loop to check whether elements are nine. 
 		// Move along the input array starting from the end
 		for( int idx = n - 1; idx >= 0; --idx) {
 			
@@ -118,7 +120,7 @@ public class PlusOne66 {
 				digits[idx] ++;
 				
 				// and the job is done
-				return digits;
+				return digits; // if we not return the digits here means all elements in digits array are nine.
 			}
 		}
 		
