@@ -35,6 +35,12 @@ public class Main {
 		Integer[] a = {0, 1, 2, 3, 4};
 		v1 = new ArrayList<>(Arrays.asList(a));
 		
+		int [] b = {1, 2, 3};
+		
+		List<Integer> v4 = new ArrayList<>();
+		v4.add(b[1]);         // ArrayList add function can add the array element in the arraylist 
+		System.out.println(v4);
+		
 		// 3. make a copy
 		List<Integer> v2 = v1;                  // another reference to v1 
 		List<Integer> v3 = new ArrayList<>(v1); // make an actual copy of v1

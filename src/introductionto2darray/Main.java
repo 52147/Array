@@ -43,6 +43,8 @@ public class Main {
 		
 		for(int i = 0; i < a.length; i++) {
 			
+			// a[i] == null   => [[ ]]
+			// a[i] != null need to check before j < a[i].length
 			for(int j = 0; a[i] != null && j < a[i].length; j++) {
 				System.out.print(a[i][j] + " ");
 			}
@@ -58,12 +60,12 @@ public class Main {
 		
 		System.out.println("Example I:");
 		
-		int[][] a = new int[2][5];
-		
+		int[][] a = new int[2][5];  // initialize the column size => print a[i][j] 0 
+		     
 		printArray(a);
 		
 		System.out.println("Example II:");
-		int[][] b = new int[2][];
+		int[][] b = new int[2][];  // not initialize the column => print a[i] null
 		
 		printArray(b);
 		
