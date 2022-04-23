@@ -52,7 +52,7 @@ package arrayrelatedtechnique;
  * | 4 | 5 | 1 | 2 | 3 |
  * 
  *  => this 3(1, 2, 3) element each need to move k % nums.length = 2 space (not k moves because may be k larger than array length)
- *  
+ *     => k = 2
  *     => the shifted index = (original index + 2) % length 
  *     => index 1 shifted to new index: (0 + 2) % 5 = 2
  *     => ...
